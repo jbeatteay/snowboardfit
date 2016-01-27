@@ -1,0 +1,17 @@
+body {
+	h1 {
+		color: red;
+		margin: 0;	
+	}
+
+	a {
+		&:hover{
+			color: green;
+		}
+	}
+	.content {
+		height: 500px;
+		width: 500px;
+		background-color: #f00;
+	}
+}
